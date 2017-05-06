@@ -44,7 +44,7 @@ coming soon...
 - IPA The MITOH Project 2016
 - Google Summer of Code 2017 radare2 project
 - IPA Security camp 2014 software security course
-- IPA Security camp 2015,2016 TA
+- IPA Security camp 2015, 2016 TA
 - IPA Security camp 2017 lecture of "Kernel exploitation"
 - ACM ICPC Asia Regional Contest 2014
 - Recruit Code Festival Competition 2014
