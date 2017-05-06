@@ -4,12 +4,23 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+# Profile
+I am a University student in Japan, especially interested in system programming and security research.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+I am primarily focused on kernel, hypervisor, exploitation and something like that.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+# Main projects
+
+# Activities
+- IPA The MITOH Project 2016
+- Google Summer of Code 2017 radare2 project
+- IPA Security camp 2014 software security course
+- IPA Security camp 2015,2016 TA
+- IPA Security camp 2017 lecture of "Kernel exploitation"
+- ACM ICPC Asia Regional Contest 2014
+- Recruit Code Festival Competition 2014
+- NAPROCK Programming Contest Algorithm Competition 2015
+- SECCON final 2015
+
+# Work experience
+- 2016 September, NTT secure platform lab (Internship)
