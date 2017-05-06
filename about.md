@@ -52,9 +52,9 @@ coming soon...
 - SECCON final 2015
 
 # OSS activities
-- QEMU
-- radare2
-- DECAF sandbox
+- [QEMU](https://github.com/qemu/qemu/commits/master?author=rkx1209)
+- [radare2](https://github.com/radare/radare2/commits/master?author=rkx1209)
+- [DECAF sandbox](https://github.com/sycurelab/DECAF/commits/master?author=RKX1209)
 
 # Work experience
 - 2016 September, NTT secure platform lab (Internship)
