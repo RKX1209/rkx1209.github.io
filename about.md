@@ -5,11 +5,31 @@ permalink: /about/
 ---
 
 # Profile
-I am a University student in Japan, especially interested in system programming and security research.
+<img src="{{site.baseurl}}/images/renkimura.png" width="170" height="170" align="right">
+
+**Ren Kimura**  
+Kobe University (M1)
+  
+**Mail:** rkx1209[at]gmail.com
+  
+**Twitter:** {% include icon-twitter.html username="rkx1209" %}
+**Github:** {% include icon-github.html username="rkx1209" %}  
+**Linkedin:** [https://www.linkedin.com/in/ren-kimura-66b4b6131/](https://www.linkedin.com/in/ren-kimura-66b4b6131/)
+  
+**Speakerdeck:** [https://speakerdeck.com/rkx1209/](https://speakerdeck.com/rkx1209/)
+  
+**Blog(Japanese):** [http://rkx1209.hatenablog.com/](http://rkx1209.hatenablog.com/)
+
+
+
+<p clear="right">
+I am a University student in Japan, especially interested in system programming and security research.  
 
 I am primarily focused on kernel, hypervisor, exploitation and something like that.
+</p>
 
 # Main projects
+// coming soon...
 
 # Activities
 - IPA The MITOH Project 2016
@@ -21,6 +41,11 @@ I am primarily focused on kernel, hypervisor, exploitation and something like th
 - Recruit Code Festival Competition 2014
 - NAPROCK Programming Contest Algorithm Competition 2015
 - SECCON final 2015
+
+# OSS activities
+- QEMU
+- radare2
+- DECAF sandbox
 
 # Work experience
 - 2016 September, NTT secure platform lab (Internship)
