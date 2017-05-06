@@ -29,7 +29,16 @@ I am primarily focused on kernel, hypervisor, exploitation and something like th
 </p>
 
 # Main projects
-// coming soon...
+- [Kernel Analysis Platform](https://github.com/KernelAnalysisPlatform)  
+WIP project. Platform that supports more efficient kernel analysis.
+- [TinyLinux](https://github.com/RKX1209/TinyLinux)  
+Mini Linux kernel implmentation from scatch
+- [Dnscript](https://github.com/RKX1209/Dnscript)  
+Scripting language that is specialized in writing "danmaku" of shooting game.
+- C3  
+SMT solver written in C
+- K2E  
+coming soon...
 
 # Activities
 - IPA The MITOH Project 2016
