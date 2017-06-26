@@ -8,8 +8,13 @@ GSoC (Google Summer of Code) Phase1 has been finished. This post is to outline t
 the Phase1 period and show you an overview of *radare2 Timeless Debugger*.
 
 # Timeless Debugger
+To illustrate the architecture of r2 Timeless Debugger, Firstly I need to explain, *"What is Timeless Debugging?"*.  
+Timeless Debugging is a new paradigm of debugging, that is very similar to *"Reverse debugging"* or *"Record and Replay"*.
+It observes a binary at any point of its execution state by saving entire execution log.
+For example, `QIRA` execute every operations, like `mov rax, [0x1000]` and
+records each logs like, `Write [0x1000] to rax`. After recording, user can restore program state
+at any point of binary by using these records.  
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
