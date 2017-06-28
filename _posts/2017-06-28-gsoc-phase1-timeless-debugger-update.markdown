@@ -16,7 +16,7 @@ In GSoC term, I'm working on full scratch implmentation of r2 Timeless Debugger.
 This section show you an overview of r2 Timeless Debugger and what I have done during the past four weeks.  
 
 # Record and Replay
-The architecture of r2 Timeless Debugger is fundamentally based on traditional debugging concept, *Record and Replay (RnR)*. In RnR, firstly you need to run debuggee process and record *non-deterministic behavior*.  
+The architecture of r2 Timeless Debugger is fundamentally based on traditional debugging concept, **Record and Replay (RnR)**. In RnR, firstly you need to run debuggee process and record **non-deterministic behavior**.  
 
 **NOTE:** Only **non** deterministic events need to be recorded, because deterministic events can be reproduced by running actual program.  
 
