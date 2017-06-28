@@ -12,7 +12,7 @@ To illustrate the architecture of r2 Timeless Debugger, Firstly I need to explai
 Timeless Debugging is a new paradigm of debugging, that is very similar to **Reverse debugging** or **Record and Replay**. It observes a binary at any point of its execution state by saving entire execution log. For example, [QIRA](http://qira.me) execute every operations, like `mov rax, [0x1000]` by QEMU and records each logs like, `Write [0x1000] to rax`. After all recordings, user can restore each program states at any point of binary by using these records.  
 
 ## r2 Timeless Debugger
-In GSoC term, I'm working on full scratch implmentation of r2 Timeless Debugger.  
+In GSoC term, I'm working on full scratch implementation of r2 Timeless Debugger.  
 This section show you an overview of r2 Timeless Debugger and what I have done during the past four weeks.  
 
 # Record and Replay
@@ -23,7 +23,7 @@ The architecture of r2 Timeless Debugger is fundamentally based on traditional d
 After that, you can restore execution state at any point of the program. That's how, traditional RnR functions like, `reverse-next` or `reverse-continue` of gdb are working correctly.  
 
 # r2 Record and Replay
-At first, I've implmented r2 recording functions for deterministic events. r2 has now new command `dts`, that saves current state of memory and register (named "trace session"). And you can also use new command `dsb` for debug step back, same as `reverse-next` in gdb, by restoring previous trace session saved by `dts` and execte forward from it to desired point. That's how all deterministic events can be replayed and seek program counter one step to backward correctly.  
+At first, I've implemented r2 recording functions for deterministic events. r2 has now new command `dts`, that saves current state of memory and register (named "trace session"). And you can also use new command `dsb` for debug step back, same as `reverse-next` in gdb, by restoring previous trace session saved by `dts` and execute forward from it to desired point. That's how all deterministic events can be replayed and seek program counter one step to backward correctly.  
 
 Now Let's see the actual usage.  
 
@@ -130,7 +130,7 @@ It saves memory space.
 
 # Checkpoint
 If you run `dsb` command just after long loop, you would find that perfomance become very slow. :(
-So I've implmented simple checkpoint system, that can automatically save trace sessions among long execution.
+So I've implemented simple checkpoint system, that can automatically save trace sessions among long execution.
 But it's WIP and feature work...
 
 # Next phase
