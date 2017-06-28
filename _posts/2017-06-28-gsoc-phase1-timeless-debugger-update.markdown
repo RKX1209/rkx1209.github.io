@@ -9,7 +9,7 @@ Project link: [Timeless Debugging Support for radare2 project](https://summerofc
 
 ## Timeless Debugger
 To illustrate the architecture of r2 Timeless Debugger, Firstly I need to explain, "What is Timeless Debugging?".  
-Timeless Debugging is a new paradigm of debugging, that is very similar to **Reverse debugging** or **Record and Replay**. It observes a binary at any point of its execution state by saving entire execution log. For example, [QIRA](qira.me) execute every operations, like `mov rax, [0x1000]` by QEMU and records each logs like, `Write [0x1000] to rax`. After all recordings, user can restore each program states at any point of binary by using these records.  
+Timeless Debugging is a new paradigm of debugging, that is very similar to **Reverse debugging** or **Record and Replay**. It observes a binary at any point of its execution state by saving entire execution log. For example, [QIRA](http://qira.me) execute every operations, like `mov rax, [0x1000]` by QEMU and records each logs like, `Write [0x1000] to rax`. After all recordings, user can restore each program states at any point of binary by using these records.  
 
 ## r2 Timeless Debugger
 In GSoC term, I'm working on full scratch implmentation of r2 Timeless Debugger.  
