@@ -2,7 +2,6 @@
 layout: post
 title:  "GSoC Phase1: Timeless Debugger Update"
 date:   2017-06-28 15:29:42 +0900
-categories: jekyll update
 ---
 GSoC (Google Summer of Code) Phase1 has been finished. This post is to outline the work completed during
 the Phase1 period and show you an overview of **radare2 Timeless Debugger**.  
@@ -139,5 +138,3 @@ Following tasks are what's in for the upcoming weeks.
 - Write more tests for `dsb`
 - Export trace sessions as a database
 - Add debug continue back command `dcb`
-
-  
