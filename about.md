@@ -9,15 +9,15 @@ permalink: /about/
 
 **Ren Kimura**  
 Kobe University (M1)
-  
+
 **Mail:** rkx1209[at]gmail.com
-  
+
 **Twitter:** {% include icon-twitter.html username="rkx1209" %}
 **Github:** {% include icon-github.html username="rkx1209" %}  
 **Linkedin:** [https://www.linkedin.com/in/ren-kimura-66b4b6131/](https://www.linkedin.com/in/ren-kimura-66b4b6131/)
-  
+
 **Speakerdeck:** [https://speakerdeck.com/rkx1209/](https://speakerdeck.com/rkx1209/)
-  
+
 **Blog(Japanese):** [http://rkx1209.hatenablog.com/](http://rkx1209.hatenablog.com/)
 
 
@@ -29,6 +29,8 @@ I am primarily focused on kernel, hypervisor, exploitation and something like th
 </p>
 
 # Main projects
+- [Reverse Debugger for radare2](https://radare.gitbooks.io/radare2book/content/debugger/revdebug.html)  
+You can now seek program counter back and forth by radare2. (My work in GSoC'17)
 - [Kernel Analysis Platform](https://github.com/KernelAnalysisPlatform)  
 WIP project. Platform that supports more efficient kernel analysis.
 - [TinyLinux](https://github.com/RKX1209/TinyLinux)  
@@ -42,21 +44,21 @@ coming soon...
 
 # Activities
 - IPA The MITOH Project 2016 Super Creator
-  
+
 - Google Summer of Code 2017 radare2 project
-  
+
 - IPA Security camp 2014 software security course
-  
+
 - IPA Security camp 2015, 2016 TA
-  
+
 - IPA Security camp 2017 lecture of "Kernel exploitation"
-  
+
 - ACM ICPC Asia Regional Contest 2014
-  
+
 - Recruit Code Festival Competition 2014
 
 - NAPROCK Programming Contest Algorithm Competition 2015
-  
+
 - SECCON final 2015  
 
 
@@ -67,3 +69,4 @@ coming soon...
 
 # Work experience
 - 2016 September, NTT secure platform lab (Internship)
+- 2017 August-September, Preferred Networks (Internship)
