@@ -162,6 +162,34 @@ You can try these feature under ESIL mode like:
 {% endhighlight %}
 
 # Watchpoint
+At Final phase, I was working mainly watchpoint function. radare2 has no support for watchpoint but, it's efficient feature when use with reverse debugging. For example, when you want to observe some variables changes, you can set watchpoint on it and reverse debug to find where the variable has changed.  
+You can use `dbw <addr> <r/w>` command to set watchpoint at address like:  
+
+{% highlight ruby %}
+[0x7f805e86bcd0]> dbw 0x00400537 w
+[0x7f805e86bcd0]> drx       # watchpoint is implmented as hardware breakpoint
+* dr0 Gw 0x00400537 2
+- dr1 Lx 0x00000000 1
+- dr2 Lx 0x00000000 1
+- dr3 Lx 0x00000000 1
+- dr6 Lx 0x00000000 1
+- dr7 Lx 0x00010001 1
+[0x7f805e86bcd0]> dc
+Continue until 0x00400536 using 1 bpsize
+hit breakpoint at: 400536
+[0x00400536]>
+{% endhighlight %}
+
+Moreover, you can set **conditional watchpoint** like:
+
+{% highlight ruby %}
+[0x7f60fa998cd0]> (break_rax,f reg_rax=`dr rax`,f test=`?vi reg_rax-0x31c0`,?= $
+est)
+[0x7f60fa998cd0]> dbwC 0x00400537 .(break_rax)  # break only rax==0x31c0
+[0x7f805e86bcd0]> dbw 0x00400537 w
+[0x7f805e86bcd0]> dc
+Hello World
+{% endhighlight %}
 
 # Thanks
 Finally, I would like to thanks people:
@@ -169,5 +197,5 @@ Finally, I would like to thanks people:
 - My mentors, [pancake](https://twitter.com/trufae) and [Álvaro Felipe](https://twitter.com/alvaro_fe)
 - The GSoC organization
 
-GSoC has been finished, bug I'd like to continue to develop for r2!  
+GSoC has been finished, but I'd like to continue to develop for r2!  
 Thank you.  
