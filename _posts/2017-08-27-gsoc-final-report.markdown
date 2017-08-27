@@ -187,6 +187,9 @@ est)
 Hello World
 {% endhighlight %}
 
+# Tests
+Of course I've wrote [tests](https://github.com/radare/radare2-regressions/commits/master?author=RKX1209) for above new features. Currently these tests are for Linux x86-64 environment. If someone find strange bug under other environments, plz report a issue.  
+
 # Thanks
 Finally, I would like to thanks people:
 - radare community
