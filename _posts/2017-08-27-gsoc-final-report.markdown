@@ -33,10 +33,6 @@ That's how program counter can be seeked backward. You can try step backing like
 Continue until 0x00400536 using 1 bpsize
 hit breakpoint at: 400536
 [0x00400536]> pd 5
-            ;-- main:
-            ;-- main:
-            ;-- rax:
-            ;-- rip:
             0x00400536      55             push rbp
             0x00400537      4889e5         mov rbp, rsp
             0x0040053a      bfd4054000     mov edi, str.Hello_World    ; 0x4005d
