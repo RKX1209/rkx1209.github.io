@@ -10,7 +10,7 @@ If You are interested in this new feature, I recommend you to read the document
 
 ## What is Timeless Debugger?
 Timeless Debugging is a debugging paradigm, which is very similar to **Reverse debugging** or **Record and Replay**. In general, almost all debugger can control program counter of debuggee process forward
-by similar commands, like run, continue and stepout... Moreover some rich debugger, like gdb, have also ability to seek program counter **backward** by stepback, continueback commands.
+by similar commands, like run, continue and stepover... Moreover some rich debugger, like gdb, have also ability to seek program counter **backward** by stepback, continueback commands.
 This feature is called **Reverse debugging** and very usefull when you have missed some debuggee's activities. You can find what is missed by seeking backward and recovering state.
 However, radare2 had not have this feature before.
 
@@ -21,7 +21,7 @@ The architecture of r2 Timeless Debugger is fundamentally based on traditional d
 **NOTE:** Only **non** deterministic events need to be recorded, because deterministic events can be reproduced by running actual program.  
 
 ## At the beginning
-Before GSoC begining, I've added simple record and replay system for radare2.
+Before GSoC beginning, I've added simple record and replay system for radare2.
 A new command `dts+` can save entire program state, like register and memory dump then,
 another new command `dsb` can replay until the before address from current pc.
 i.e. You can single step back from current pc.
@@ -103,6 +103,65 @@ As you can see the result of `dts`, session 1 saves only different pages from pr
 # Checkpoint
 If you run `dsb` command just after long loop, you would find that perfomance become very slow. :(
 So after GSoC Phase1 began, I've implemented simple checkpoint system, that can automatically save trace sessions among long execution. And fixed some bugs related to record and replay functions.
+
+# Optional features
+After Phase2 began, I've added optional feature for recorder. At first I've added Import/Export
+function of program records. When you take some records and want to export these to filesystem, you can
+use `dtst <filename>`. Default export path is current directory. It can be changed by `e dir.dbgsnap=<path>`. And of course, you can import these records from filesystem like `dtsf <filename>`.
+
+{% highlight ruby %}
+[0x004028c2]> dtst records_for_test
+Session saved in records_for_test.session and dump in records_for_test.dump
+[0x004028c2]> dtsf records_for_test
+session: 0, 0x4028a0 diffs: 0
+session: 1, 0x4028c2 diffs: 0
+{% endhighlight %}
+
+After that, I've also implmented `dts-` and `dtsC` commands, delete and add comment for specified record like:
+
+{% highlight ruby %}
+[0x004028c2]> dtsC 0 program start
+[0x004028c2]> dtsC 1 decryption start
+[0x004028c2]> dts
+session: 0   at:0x004028a0   "program start"
+session: 1   at:0x004028c2   "decryption start"
+{% endhighlight %}
+
+
+# Debug continue back
+Program recording and reverse single step function has almost completed. So next, I've challeged to add
+**continue back** command, `dcb`. Basic usage is same as single step back `dsb`, but it can seek program counter backward **until hit breakpoint.** So it's reverse version of continue.  
+Let's try this feature like:
+
+{% highlight ruby %}
+[0x004028a0]> db 0x004028a2 # Break at 0x4028a2
+[0x004028a0]> 10dso
+[0x004028a0]> dr rip
+0x004028b9                  # Step out 10 times
+[0x004028a0]> dcb           # Continue back until last breakpoint
+[0x004028a0]> dr rip
+0x004028a2                  # Now backed to 0x4028a2
+{% endhighlight %}
+
+
+# Reverse debugger for ESIL
+According to resume, my works in phase2 has almost finished, but there are plenty of time until finish of phase2. So I've developed **reverse debugger for ESIL**. In ESIL mode, you can record ESIL program state by a new command `aets+` and step one back by `aesb` command.  
+Yes. It's same as `dts+` and `dsb` in normal debug mode.  
+You can try these feature under ESIL mode like:
+
+{% highlight ruby %}
+[0x00404870]> aets+     # Record ESIL program state
+[0x00404870]> aer rip
+0x00404870
+[0x00404870]> 5aeso
+[0x00404870]> aer rip
+0x0040487d
+[0x00404870]> aesb     #  Step back under ESIL mode
+[0x00404870]> aer rip
+0x00404879             #  Success!
+{% endhighlight %}
+
+# Watchpoint
 
 # Thanks
 Finally, I would like to thanks people:
