@@ -158,7 +158,7 @@ You can try these feature under ESIL mode like:
 {% endhighlight %}
 
 # Watchpoint
-At Final phase, I was working mainly watchpoint function. radare2 has no support for watchpoint but, it's efficient feature when use with reverse debugging. For example, when you want to observe some variables changes, you can set watchpoint on it and reverse debug to find where the variable has changed.  
+At Final phase, I was working mainly watchpoint function. It's efficient feature when use with reverse debugging. For example, when you want to observe some variables changes, you can set watchpoint on it and reverse debug to find where the variable has changed.  
 You can use `dbw <addr> <r/w>` command to set watchpoint at address like:  
 
 {% highlight ruby %}
