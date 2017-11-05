@@ -69,11 +69,11 @@ coming soon...
 
 
 # OSS activities
-- [QEMU](https://github.com/qemu/qemu/commits/master?author=rkx1209)
+- [QEMU](https://github.com/qemu/qemu/commits/master?author=rkx1209)  
 Improved Block IO performance.  
-- [radare2](https://github.com/radare/radare2/commits/master?author=rkx1209)
+- [radare2](https://github.com/radare/radare2/commits/master?author=rkx1209)  
 Reverse debugging ability. Nintendo Switch binary format(NSO) supporting.  
-- [DECAF sandbox](https://github.com/sycurelab/DECAF/commits/master?author=RKX1209)
+- [DECAF sandbox](https://github.com/sycurelab/DECAF/commits/master?author=RKX1209)  
 TSK(The Sleuth Kit), forensic framework supporting.  
 
 # Work experience
