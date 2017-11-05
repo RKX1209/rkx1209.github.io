@@ -31,6 +31,8 @@ I am primarily focused on kernel, hypervisor, exploitation and something like th
 # Main projects
 - [Reverse Debugger for radare2](https://radare.gitbooks.io/radare2book/content/debugger/revdebug.html)  
 You can now seek program counter back and forth by radare2. (My work in GSoC'17)
+- [Gdbserver implmentation on BitVisor](https://github.com/RKX1209/bitvisor-gdb)  
+Gdbserver implmentation on Type1 hypervisor using [lwip](https://savannah.nongnu.org/projects/lwip/).
 - [Kernel Analysis Platform](https://github.com/KernelAnalysisPlatform)  
 WIP project. Platform that supports more efficient kernel analysis.
 - [TinyLinux](https://github.com/RKX1209/TinyLinux)  
@@ -42,30 +44,37 @@ SMT solver written in C
 - K2E  
 coming soon...
 
-# Activities
-- IPA The MITOH Project 2016 Super Creator
+# Talks
+- Reverse Debugging with radare2 [r2con17]  
+([slide](https://speakerdeck.com/rkx1209/reverse-debugging-with-radare2)), ([video](https://youtu.be/2gcqLDGnKMc?t=39m34s))  
 
-- Google Summer of Code 2017 radare2 project
+# Activities
+- [IPA The MITOH Project 2016 Super Creator](https://www.ipa.go.jp/english/humandev/third.html)  
+
+- [Google Summer of Code 2017 radare2 project](https://summerofcode.withgoogle.com/projects/#6182866204491776)  
 
 - IPA Security camp 2014 software security course
 
 - IPA Security camp 2015, 2016 TA
 
-- IPA Security camp 2017 lecture of "Kernel exploitation"
+- [IPA Security camp 2017 lecture of "Kernel exploitation"](https://www.ipa.go.jp/jinzai/camp/2017/zenkoku2017_kougi.html#trkd2~3)  
 
-- ACM ICPC Asia Regional Contest 2014
+- [ACM ICPC Asia Regional Contest 2014](http://icpc.iisf.or.jp/2014-waseda/)  
 
-- Recruit Code Festival Competition 2014
+- [Recruit Code Festival Competition 2014](https://www.recruit-jinji.jp/recruitment/code_fes/)  
 
-- NAPROCK Programming Contest Algorithm Competition 2015
+- [NAPROCK Programming Contest Algorithm Competition 2015](http://www.procon.gr.jp/?page_id=59761)  
 
-- SECCON final 2015  
+- [SECCON final 2015](http://2015.seccon.jp/result.html)  
 
 
 # OSS activities
 - [QEMU](https://github.com/qemu/qemu/commits/master?author=rkx1209)
+Improved Block IO performance.  
 - [radare2](https://github.com/radare/radare2/commits/master?author=rkx1209)
+Reverse debugging ability. Nintendo Switch binary format(NSO) supporting.  
 - [DECAF sandbox](https://github.com/sycurelab/DECAF/commits/master?author=RKX1209)
+TSK(The Sleuth Kit), forensic framework supporting.  
 
 # Work experience
 - 2016 September, NTT secure platform lab (Internship)
