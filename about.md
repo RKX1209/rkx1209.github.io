@@ -52,24 +52,23 @@ coming soon...
 ([slide](https://speakerdeck.com/rkx1209/more-efficient-remote-debugging-with-thin-hypervisor))  
 
 # Activities
-- IPA The MITOH Project 2016 Super Creator
+- [IPA The MITOH Project 2016 Super Creator](https://www.ipa.go.jp/english/humandev/third.html)  
 
-- Google Summer of Code 2017 radare2 project
+- [Google Summer of Code 2017 radare2 project](https://summerofcode.withgoogle.com/projects/#6182866204491776)  
 
 - IPA Security camp 2014 software security course
 
 - IPA Security camp 2015, 2016 TA
 
-- IPA Security camp 2017 lecture of "Kernel exploitation"
+- [IPA Security camp 2017 lecture of "Kernel exploitation"](https://www.ipa.go.jp/jinzai/camp/2017/zenkoku2017_kougi.html#trkd2~3)  
 
-- ACM ICPC Asia Regional Contest 2014
+- [ACM ICPC Asia Regional Contest 2014](http://icpc.iisf.or.jp/2014-waseda/)  
 
-- Recruit Code Festival Competition 2014
+- [Recruit Code Festival Competition 2014](https://www.recruit-jinji.jp/recruitment/code_fes/)  
 
-- NAPROCK Programming Contest Algorithm Competition 2015
+- [NAPROCK Programming Contest Algorithm Competition 2015](http://www.procon.gr.jp/?page_id=59761)  
 
-- SECCON final 2015  
-
+- [SECCON final 2015](http://2015.seccon.jp/result.html)  
 
 # OSS activities
 - [QEMU](https://github.com/qemu/qemu/commits/master?author=rkx1209)
