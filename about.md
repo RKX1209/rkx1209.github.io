@@ -74,6 +74,9 @@ coming soon...
 - [QEMU](https://github.com/qemu/qemu/commits/master?author=rkx1209)
 - [radare2](https://github.com/radare/radare2/commits/master?author=rkx1209)
 - [DECAF sandbox](https://github.com/sycurelab/DECAF/commits/master?author=RKX1209)
+- [Mephisto(Nintendo Switch simple emulator)](https://github.com/reswitched/Mephisto/commits?author=RKX1209)
+- [Bareflank hypervisor](https://github.com/Bareflank/hypervisor/commits?author=rkx1209)
+- [Capstan](https://github.com/cloudius-systems/capstan/commits?author=rkx1209)
 
 # Work experience
 - 2016 September, NTT secure platform lab (Internship)
