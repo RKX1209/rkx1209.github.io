@@ -50,6 +50,8 @@ coming soon...
 ([slide](https://speakerdeck.com/rkx1209/reverse-debugging-with-radare2)), ([video](https://youtu.be/2gcqLDGnKMc?t=39m34s))  
 - More efficient remote debugging with Thin Hypervisor [AVTOKYO17]  
 ([slide](https://speakerdeck.com/rkx1209/more-efficient-remote-debugging-with-thin-hypervisor))  
+- Kernel Analysis Platform based on Thin hypervisor [BitVisor Summit17 Guest Speaker]  
+([slide](https://speakerdeck.com/rkx1209/kernel-analysis-platform-based-on-thin-hypervisor))  
 
 # Activities
 - [IPA The MITOH Project 2016 Super Creator](https://www.ipa.go.jp/english/humandev/third.html)  
