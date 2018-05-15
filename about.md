@@ -8,7 +8,7 @@ permalink: /about/
 <img src="{{site.baseurl}}/images/renkimura.png" width="170" height="170" align="right">
 
 **Ren Kimura**  
-Kobe University (M1)
+Kobe University (M2)
 
 **Mail:** rkx1209[at]gmail.com
 
@@ -23,7 +23,7 @@ Kobe University (M1)
 
 
 <p clear="right">
-I am a University student in Japan, especially interested in system programming and security research.  
+I am an University student in Japan, especially interested in system programming and security research.  
 
 I am primarily focused on kernel, hypervisor, exploitation and something like that.
 </p>
@@ -83,3 +83,9 @@ coming soon...
 # Work experience
 - 2016 September, NTT secure platform lab (Internship)
 - 2017 August-September, Preferred Networks (Internship)
+
+# Education
+- 2017 March  
+Bachelor of Computer Science, Kobe University, Hyogo Japan
+- 2018 October-2019 September  
+Visiting researcher at Carnegie Mellon University  [CyLab](https://www.cylab.cmu.edu/), Pitsuburg America  
