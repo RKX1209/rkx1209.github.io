@@ -29,6 +29,8 @@ I am primarily focused on kernel, hypervisor, exploitation and something like th
 </p>
 
 # Main projects
+- [NSEMU](https://github.com/RKX1209/nsemu)  
+Experimental Nintendo Switch emulator
 - [Reverse Debugger for radare2](https://radare.gitbooks.io/radare2book/content/debugger/revdebug.html)  
 You can now seek program counter back and forth by radare2. (My work in GSoC'17)
 - [Gdbserver implmentation on BitVisor](https://github.com/RKX1209/bitvisor-gdb)  
