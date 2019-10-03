@@ -8,7 +8,7 @@ permalink: /about/
 <img src="{{site.baseurl}}/images/renkimura.png" width="170" height="170" align="right">
 
 **Ren Kimura**  
-Kobe University (M2)
+Software Security Researcher.  
 
 **Mail:** rkx1209[at]gmail.com
 
@@ -20,13 +20,17 @@ Kobe University (M2)
 
 **Blog(Japanese):** [http://rkx1209.hatenablog.com/](http://rkx1209.hatenablog.com/)
 
-
-
 <p clear="right">
-I am an University student in Japan, especially interested in system programming and security research.  
+I'm working on autonomous vulnerability finding and binary analysis, got over <a href="https://gist.github.com/RKX1209/66f5369a5bd6df576248bcd636505562">10 CVEs</a>. <br>
 
-I am primarily focused on kernel, hypervisor, exploitation and something like that.
+Like: Fuzzing, Binary Analysis and System Software Security.
 </p>
+
+# Education
+- 2019 March  
+Master student at **Kobe University**, Hyogo Japan. 
+- 2018 October-2019 September  
+Researcher at **Carnegie Mellon University** [CyLab](https://www.cylab.cmu.edu/), Pittsburgh PA United States.
 
 # Main projects
 - [NSEMU](https://github.com/RKX1209/nsemu)  
@@ -36,16 +40,13 @@ You can now seek program counter back and forth by radare2. (My work in GSoC'17)
 - [Gdbserver implmentation on BitVisor](https://github.com/RKX1209/bitvisor-gdb)  
 gdbserver implmentation on Type1 hypervisor using [lwip](https://savannah.nongnu.org/projects/lwip/).
 You can do remote system debugging on Guest OS from your local machine through lightweight hypervisor.  
-- [Kernel Analysis Platform](https://github.com/KernelAnalysisPlatform)  
-WIP project. Platform that supports more efficient kernel analysis.
 - [TinyLinux](https://github.com/RKX1209/TinyLinux)  
 Mini Linux kernel implmentation from scatch
 - [Dnscript](https://github.com/RKX1209/Dnscript)  
 Scripting language that is specialized in writing "danmaku" of shooting game.
 - [C3](https://github.com/RKX1209/c3)  
 SMT solver written in C
-- K2E  
-coming soon...
+
 
 # Talks
 - Reverse Debugging with radare2 [r2con17]  
@@ -85,9 +86,3 @@ coming soon...
 # Work experience
 - 2016 September, NTT secure platform lab (Internship)
 - 2017 August-September, Preferred Networks (Internship)
-
-# Education
-- 2017 March  
-Bachelor of Computer Science, Kobe University, Hyogo Japan
-- 2018 October-2019 September  
-Visiting researcher at Carnegie Mellon University  [CyLab](https://www.cylab.cmu.edu/), Pitsuburg America  
