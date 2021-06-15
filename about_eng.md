@@ -7,10 +7,10 @@ permalink: /about/
 # Profile
 <img src="{{site.baseurl}}/images/renkimura.png" width="170" height="170" align="right">
 
-**木村 廉**  
-セキュリティリサーチャー/経営者
+**Ren Kimura**  
+Software Security Researcher.  
 
-**Mail:** rkx1209[at]gmail.com/renk[at]ricsec.co.jp
+**Mail:** rkx1209[at]gmail.com
 
 **Twitter:** {% include icon-twitter.html username="rkx1209" %}
 **Github:** {% include icon-github.html username="rkx1209" %}  
@@ -21,44 +21,23 @@ permalink: /about/
 **Blog(Japanese):** [http://rkx1209.hatenablog.com/](http://rkx1209.hatenablog.com/)
 
 <p clear="right">
-専門はサイバー攻撃自動化技術。脆弱性発見、解析、エクスプロイト生成自動化。
-報告済みCVE<a href="https://gist.github.com/RKX1209/66f5369a5bd6df576248bcd636505562">12件</a>. <br>
+I'm working on autonomous vulnerability finding and binary analysis, got over <a href="https://gist.github.com/RKX1209/66f5369a5bd6df576248bcd636505562">10 CVEs</a>. <br>
 
-キーワード: ファジング、バイナリ解析、システムソフトウェア
+Like: Fuzzing, Binary Analysis and System Software Security.
 </p>
 
-# 経歴
-- 2020年4月 
-[株式会社リチェルカセキュリティ](https://ricsec.co.jp/) 創業。代表取締役社長 CEO。
-- 2020年3月 
-神戸大学大学院 修士過程 卒業。兵庫県、日本。
-- 2018年10月-2019年9月
-カーネギーメロン大学 [CyLab](https://www.cylab.cmu.edu/) 客員研究員。 Pittsburgh PA United States.
+# Education
+- 2019 March  
+Master student at **Kobe University**, Hyogo Japan. 
+- 2018 October-2019 September  
+Researcher at **Carnegie Mellon University** [CyLab](https://www.cylab.cmu.edu/), Pittsburgh PA United States.
 
-# 主な活動
-- [2016年度 IPA未踏 スーパークリエイター認定](https://www.ipa.go.jp/english/humandev/third.html)  
-カーネルデバッガ、トレーサの開発
-- [Google Summer of Code 2017 radare2プロジェクト](https://summerofcode.withgoogle.com/projects/#6182866204491776)  
-
-- IPA Security camp 2014 software security course
-
-- IPA Security camp 2015, 2016 TA
-
-- [IPA Security camp 2017 lecture of "Kernel exploitation"](https://www.ipa.go.jp/jinzai/camp/2017/zenkoku2017_kougi.html#trkd2~3)  
-
-- [ACM ICPC Asia Regional Contest 2014](http://icpc.iisf.or.jp/2014-waseda/)  
-
-- [Recruit Code Festival Competition 2014](https://www.recruit-jinji.jp/recruitment/code_fes/)  
-
-- [NAPROCK Programming Contest Algorithm Competition 2015](http://www.procon.gr.jp/?page_id=59761)  
-
-- [SECCON final 2015](http://2015.seccon.jp/result.html)  
-
-# プロジェクト
+# Main projects
 - [NSEMU](https://github.com/RKX1209/nsemu)  
-Nintendo Switchエミュレータ(POC)
-- [radare2 Record and Replayデバッガ(GSoC 2017)](https://radare.gitbooks.io/radare2book/content/debugger/revdebug.html)  
-- [BitVisor上でのgdbserver実装](https://github.com/RKX1209/bitvisor-gdb)  
+Experimental Nintendo Switch emulator
+- [Reverse Debugger for radare2](https://radare.gitbooks.io/radare2book/content/debugger/revdebug.html)  
+You can now seek program counter back and forth by radare2. (My work in GSoC'17)
+- [Gdbserver implmentation on BitVisor](https://github.com/RKX1209/bitvisor-gdb)  
 gdbserver implmentation on Type1 hypervisor using [lwip](https://savannah.nongnu.org/projects/lwip/).
 You can do remote system debugging on Guest OS from your local machine through lightweight hypervisor.  
 - [TinyLinux](https://github.com/RKX1209/TinyLinux)  
@@ -77,6 +56,24 @@ SMT solver written in C
 - Kernel Analysis Platform based on Thin hypervisor [BitVisor Summit17 Guest Speaker]  
 ([slide](https://speakerdeck.com/rkx1209/kernel-analysis-platform-based-on-thin-hypervisor))  
 
+# Activities
+- [IPA The MITOH Project 2016 Super Creator](https://www.ipa.go.jp/english/humandev/third.html)  
+
+- [Google Summer of Code 2017 radare2 project](https://summerofcode.withgoogle.com/projects/#6182866204491776)  
+
+- IPA Security camp 2014 software security course
+
+- IPA Security camp 2015, 2016 TA
+
+- [IPA Security camp 2017 lecture of "Kernel exploitation"](https://www.ipa.go.jp/jinzai/camp/2017/zenkoku2017_kougi.html#trkd2~3)  
+
+- [ACM ICPC Asia Regional Contest 2014](http://icpc.iisf.or.jp/2014-waseda/)  
+
+- [Recruit Code Festival Competition 2014](https://www.recruit-jinji.jp/recruitment/code_fes/)  
+
+- [NAPROCK Programming Contest Algorithm Competition 2015](http://www.procon.gr.jp/?page_id=59761)  
+
+- [SECCON final 2015](http://2015.seccon.jp/result.html)  
 
 # OSS activities
 - [QEMU](https://github.com/qemu/qemu/commits/master?author=rkx1209)
